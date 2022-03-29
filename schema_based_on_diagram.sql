@@ -47,6 +47,7 @@ CREATE TABLE invoices (
     ON DELETE CASCADE
 );
 
+
 -- create invoice_items table
 CREATE TABLE invoice_items (
   id SERIAL PRIMARY KEY,
